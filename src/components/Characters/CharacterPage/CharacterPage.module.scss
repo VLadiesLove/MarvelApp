@@ -1,0 +1,35 @@
+.header{
+    margin-bottom: 50px;
+    background-color: #666;
+    color:#0ff;
+    opacity: 0.4;
+}
+
+.image{
+    width: 500px;
+    overflow: hidden;
+    margin: 50px auto;
+    border-radius: 1%;
+}
+
+.image img{
+    width: 100%;
+}
+
+.itemsWrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.comics img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px){ 
+    .image{
+        width: 300px;
+    }
+}
